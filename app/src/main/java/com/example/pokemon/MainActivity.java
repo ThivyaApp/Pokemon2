@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case android.R.id.home:
-                toolbar.setTitle("");
+                toolbar.setTitle("Pokemon List");
                 //Clear all fragment detail and pop to list fragment
                 getSupportFragmentManager().popBackStack("detail", FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
