@@ -1,4 +1,4 @@
-package com.example.pokemon;
+package com.example.pokemon.View;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
+
+import com.example.pokemon.R;
 
 public class QuizzPage extends AppCompatActivity {
     Toolbar toolbar;
