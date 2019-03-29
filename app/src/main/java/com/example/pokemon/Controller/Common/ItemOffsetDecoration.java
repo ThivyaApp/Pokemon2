@@ -1,4 +1,4 @@
-package com.example.pokemon.Common;
+package com.example.pokemon.Controller.Common;
 
 import android.content.Context;
 import android.graphics.Rect;

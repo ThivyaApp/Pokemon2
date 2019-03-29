@@ -14,14 +14,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".Controller.FirstPage">
+        <activity android:name=".View.FirstPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name=".Controller.MainActivity"/>
+        <activity android:name=".View.MainActivity"/>
     </application>
 
 </manifest>

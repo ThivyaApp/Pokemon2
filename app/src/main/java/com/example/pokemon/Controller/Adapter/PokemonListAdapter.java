@@ -1,4 +1,4 @@
-package com.example.pokemon.Adapter;
+package com.example.pokemon.Controller.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,11 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.pokemon.Common.Common;
-import com.example.pokemon.Interface.IItemClickListener;
+import com.example.pokemon.Controller.Common.Common;
+import com.example.pokemon.Controller.Interface.IItemClickListener;
 import com.example.pokemon.Model.Pokemon;
 import com.example.pokemon.R;
 

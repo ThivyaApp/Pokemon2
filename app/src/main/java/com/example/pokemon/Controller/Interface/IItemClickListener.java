@@ -1,4 +1,4 @@
-package com.example.pokemon.Interface;
+package com.example.pokemon.Controller.Interface;
 
 import android.view.View;
 

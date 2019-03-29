@@ -1,4 +1,4 @@
-package com.example.pokemon.Controller;
+package com.example.pokemon.View;
 
 
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.pokemon.Adapter.PokemonEvolutionAdapter;
-import com.example.pokemon.Adapter.PokemonTypeAdapter;
-import com.example.pokemon.Common.Common;
+import com.example.pokemon.Controller.Adapter.PokemonEvolutionAdapter;
+import com.example.pokemon.Controller.Adapter.PokemonTypeAdapter;
+import com.example.pokemon.Controller.Common.Common;
 import com.example.pokemon.Model.Pokemon;
 import com.example.pokemon.R;
 

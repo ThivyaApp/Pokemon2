@@ -1,4 +1,4 @@
-package com.example.pokemon.Retrofit;
+package com.example.pokemon.Controller.Retrofit;
 
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;

@@ -1,4 +1,4 @@
-package com.example.pokemon.Controller;
+package com.example.pokemon.View;
 
 
 import android.os.Bundle;
@@ -9,13 +9,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.pokemon.Adapter.PokemonListAdapter;
-import com.example.pokemon.Common.Common;
-import com.example.pokemon.Common.ItemOffsetDecoration;
+import com.example.pokemon.Controller.Adapter.PokemonListAdapter;
+import com.example.pokemon.Controller.Common.Common;
+import com.example.pokemon.Controller.Common.ItemOffsetDecoration;
 import com.example.pokemon.Model.Pokedex;
 import com.example.pokemon.R;
-import com.example.pokemon.Retrofit.IPokemonDex;
-import com.example.pokemon.Retrofit.RetrofitClient;
+import com.example.pokemon.Controller.Retrofit.IPokemonDex;
+import com.example.pokemon.Controller.Retrofit.RetrofitClient;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;

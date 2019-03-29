@@ -1,8 +1,6 @@
-package com.example.pokemon.Retrofit;
+package com.example.pokemon.Controller.Retrofit;
 
 import com.example.pokemon.Model.Pokedex;
-
-import java.util.List;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;

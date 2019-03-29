@@ -1,4 +1,4 @@
-package com.example.pokemon.Controller;
+package com.example.pokemon.View;
 
 
 import android.content.BroadcastReceiver;
@@ -14,7 +14,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.example.pokemon.Common.Common;
+import com.example.pokemon.Controller.Common.Common;
 import com.example.pokemon.Model.Pokemon;
 import com.example.pokemon.R;
 
@@ -34,9 +34,15 @@ public class MainActivity extends AppCompatActivity {
                 detailFragment.setArguments(bundle);
 
                 FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+
+                fragmentTransaction.setCustomAnimations(R.anim.enter_right_to_left, R.anim.exit_right_to_left,
+                        R.anim.enter_left_to_right, R.anim.exit_left_to_right);
+                fragmentTransaction.show(detailFragment);
+
+
                 fragmentTransaction.replace(R.id.list_pokemon_fragment,detailFragment);
                 fragmentTransaction.addToBackStack("detail");
-                fragmentTransaction.commit();
+                fragmentTransaction.commitAllowingStateLoss();
 
                 Pokemon pokemon = Common.commonPokemonList.get(position);
                 toolbar.setTitle(pokemon.getName());
@@ -50,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Pokemon list");
         setSupportActionBar(toolbar);
+
+
 
         LocalBroadcastManager.getInstance(this)
                 .registerReceiver(showDetail,new IntentFilter(Common.KEY_ENABLE_HOME));
