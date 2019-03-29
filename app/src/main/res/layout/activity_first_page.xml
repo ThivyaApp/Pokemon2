@@ -27,7 +27,7 @@
             
             <ViewFlipper
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:id="@+id/v_flipper"
                 />
 
@@ -55,115 +55,17 @@
                 android:background="@color/colorPrimaryDark"
                 android:onClick="pokemon_list_activity"/>
 
-            <TextView
-                android:id="@+id/title_quizz"
-                app:layout_constraintBottom_toBottomOf="@id/button"
-                android:layout_marginTop="30dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Quizz"
-                android:textSize="32sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:textColor="@color/colorPrimaryDark" />
-
-            <TextView
-                android:id="@+id/ques_one"
-                app:layout_constraintBottom_toBottomOf="@id/title"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Who created pokemon ?"
-                android:textSize="18sp"
-                android:gravity="center"
-                android:textColor="@android:color/black" />
-
             <Button
-                android:layout_marginTop="10dp"
-                android:id="@+id/button_q1_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:text="Satoshi Tajiri, Ken Sugimori"
-                app:layout_constraintTop_toBottomOf="@id/ques_one"
-                android:background="@color/colorPrimaryDark"
-                android:onClick="good_answer"/>
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:id="@+id/button_q1_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Eiichirō Oda, hayao miyazaki"
-                app:layout_constraintTop_toBottomOf="@id/ques_one"
-                app:layout_constraintLeft_toRightOf="@id/button_q1_1"
-                android:background="@color/colorPrimaryDark"
-                android:onClick="false_answer"/>
-
-
-            <TextView
-                android:id="@+id/ques_two"
-                app:layout_constraintBottom_toBottomOf="@id/ques_two"
                 android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="What is the next evolution of Ivysaur ?"
-                android:textSize="18sp"
-                android:gravity="center"
-                android:textColor="@android:color/black" />
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:id="@+id/button_q2_1"
-                android:layout_width="match_parent"
+                android:id="@+id/button_quizz"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:clickable="true"
-                android:text="Bulbasaur"
-                app:layout_constraintTop_toBottomOf="@id/ques_two"
+                android:text=" Quizz "
+                app:layout_constraintTop_toBottomOf="@id/title"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="false_answer"/>
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:id="@+id/button_q2_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Venusaur"
-                app:layout_constraintTop_toBottomOf="@id/ques_one"
-                android:background="@color/colorPrimaryDark"
-                android:onClick="good_answer"/>
-
-            <TextView
-                android:id="@+id/ques_three"
-                app:layout_constraintBottom_toBottomOf="@id/ques_two"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="What is the weakness of Pikachu ?"
-                android:textSize="18sp"
-                android:gravity="center"
-                android:textColor="@android:color/black" />
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:id="@+id/button_q3_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:text="Water"
-                android:background="@color/colorPrimaryDark"
-                android:onClick="false_answer"/>
-
-            <Button
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:id="@+id/button_q3_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Ground"
-                app:layout_constraintTop_toBottomOf="@id/ques_one"
-                android:background="@color/colorPrimaryDark"
-                android:onClick="good_answer"/>
+                android:onClick="pokemon_quizz_activity"/>
 
         </LinearLayout>
 

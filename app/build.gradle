@@ -43,5 +43,5 @@ dependencies {
 
     implementation 'com.robertlevonyan.view:MaterialChipView:1.2.4'
 
-    implementation'com.r0adkll:slidableactivity:2.0.6'
+    implementation 'com.r0adkll:slidableactivity:2.0.6'
 }

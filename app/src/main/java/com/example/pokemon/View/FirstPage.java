@@ -10,12 +10,12 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
+import com.example.pokemon.QuizzPage;
 import com.example.pokemon.R;
 
 public class FirstPage extends AppCompatActivity {
 
     ViewFlipper v_flipper;
-    Button b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +41,14 @@ public class FirstPage extends AppCompatActivity {
         startActivity(randomIntent);
     }
 
+    public void pokemon_quizz_activity(View view){
+        // Create an Intent to start the second activity
+        Intent randomIntent = new Intent(this, QuizzPage.class);
+
+        // Start the new activity.
+        startActivity(randomIntent);
+    }
+
     public void flipperImages(int image){
         ImageView imageView = new ImageView(this);
         imageView.setBackgroundResource(image);
@@ -54,17 +62,4 @@ public class FirstPage extends AppCompatActivity {
         v_flipper.setOutAnimation(this,android.R.anim.slide_out_right);
     }
 
-    public void good_answer(View view){
-        // Toast myToast = Toast.makeText(this, message, duration);
-        Toast myToast = Toast.makeText(this, "Right !",
-                Toast.LENGTH_SHORT);
-        myToast.show();
-    }
-
-    public void false_answer(View view){
-        // Toast myToast = Toast.makeText(this, message, duration);
-        Toast myToast = Toast.makeText(this, "False !",
-                Toast.LENGTH_SHORT);
-        myToast.show();
-    }
 }
