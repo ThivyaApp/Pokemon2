@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.example.pokemon.Controller.Common.Common;
 import com.example.pokemon.Model.Pokemon;
@@ -56,8 +57,6 @@ public class MainActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Pokemon list");
         setSupportActionBar(toolbar);
-
-
 
         LocalBroadcastManager.getInstance(this)
                 .registerReceiver(showDetail,new IntentFilter(Common.KEY_ENABLE_HOME));
