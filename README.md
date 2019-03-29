@@ -3,7 +3,7 @@
 ## Présentation
 Projet affichant une liste de Pokémon ainsi que les détails du pokémon lorsque l'on clique dessus. Utilisation du pattern MVC (Model-View-Controller).
 Cette application a été programmé sur Android Studio en Java.
-Utilisation d'une API afin de récupérer les informations.
+Utilisation d'une API afin de récupérer les informations et les afficher dans une recyclerview.
 
 ## Prérequis 
 * Installation d'Android Studio
