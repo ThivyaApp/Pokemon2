@@ -1,4 +1,4 @@
-package com.example.pokemon;
+package com.example.pokemon.Controller;
 
 
 import android.os.Bundle;
@@ -16,6 +16,7 @@ import com.example.pokemon.Adapter.PokemonEvolutionAdapter;
 import com.example.pokemon.Adapter.PokemonTypeAdapter;
 import com.example.pokemon.Common.Common;
 import com.example.pokemon.Model.Pokemon;
+import com.example.pokemon.R;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,10 +1,8 @@
-package com.example.pokemon;
+package com.example.pokemon.Controller;
 
 
-import android.os.Build;
 import android.os.Bundle;
 import android.app.Fragment;
-import android.support.annotation.RequiresApi;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -15,7 +13,7 @@ import com.example.pokemon.Adapter.PokemonListAdapter;
 import com.example.pokemon.Common.Common;
 import com.example.pokemon.Common.ItemOffsetDecoration;
 import com.example.pokemon.Model.Pokedex;
-import com.example.pokemon.Model.Pokemon;
+import com.example.pokemon.R;
 import com.example.pokemon.Retrofit.IPokemonDex;
 import com.example.pokemon.Retrofit.RetrofitClient;
 

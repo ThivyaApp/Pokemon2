@@ -1,4 +1,4 @@
-package com.example.pokemon;
+package com.example.pokemon.Controller;
 
 
 import android.content.BroadcastReceiver;
@@ -13,10 +13,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.example.pokemon.Common.Common;
 import com.example.pokemon.Model.Pokemon;
+import com.example.pokemon.R;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
