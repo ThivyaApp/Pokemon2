@@ -20,5 +20,6 @@ Utilisation d'une API afin de récupérer les informations.
 ## Fonctionnalités
 
 ### Ecran d'accueil 
-![picture alt](https://github.com/ThivyaApp/Pokemon2/blob/master/app/src/main/res/drawable/Screenshot_2019-03-29-21-19-27.png)
-Possibilité de choisir d'afficher la liste des pokémon ou de faire un mini-quizz
+<img id="screenshot" src="/images_readme/Screenshot_2019-03-29-22-33-42.png" height="30%" width"30%">
+Possibilité de choisir d'afficher la liste des pokémon ou de faire un mini-quizz.
+Slider affichant 3 images.
