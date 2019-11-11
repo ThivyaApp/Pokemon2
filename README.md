@@ -20,23 +20,22 @@ Utilisation d'une API afin de récupérer les informations et les afficher dans 
 ## Fonctionnalités
 
 ### Ecran d'accueil 
-![picture alt](https://github.com/ThivyaApp/Pokemon2/blob/master/images_readme/Screenshot_2019-03-29-22-34-06.png)
-
+<img id="screenshot" src="/images_readme/Screenshot_2019-03-29-22-34-06.png" height="30%" width="30%">
 *Possibilité de choisir d'afficher la liste des pokémon ou de faire un mini-quizz.
 *Slider affichant 3 images.
 
 ### Ecran liste 
-![picture alt](https://github.com/ThivyaApp/Pokemon2/blob/master/images_readme/Screenshot_2019-03-29-22-34-50.png)
+<img id="screenshot" src="/images_readme/Screenshot_2019-03-29-22-34-50.png" height="30%" width="30%">
 
 * Affichage de la liste des pokémon avec une image de chaque pokémon ainsi que du nom.
 
 ### Ecran détail
-![picture alt](https://github.com/ThivyaApp/Pokemon2/blob/master/images_readme/Screenshot_2019-03-29-22-35-24.png)
+<img id="screenshot" src="/images_readme/Screenshot_2019-03-29-22-35-24.png" height="30%" width="30%">
 * Détail du pokémon choisi. Nous pouvons voir une image du pokémon, son nom, sa taille, son poids, son candy, ses évoutions, son type ainsi que ses faiblesses. 
 
 
 ### Ecran Quizz
-![picture alt](https://github.com/ThivyaApp/Pokemon2/blob/master/images_readme/Screenshot_2019-03-29-22-35-54.png)
+<img id="screenshot" src="/images_readme/Screenshot_2019-03-29-22-35-54.png" height="30%" width="30%">
 
 * Activité contenant le mini-quizz indiquant si la réponse est bonne ou fausse dans des toasts.
 
